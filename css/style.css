@@ -353,17 +353,6 @@ footer .credit a {
   color: white;
 }
 
-/* Biar rapi di HP */
-@media (max-width: 480px) {
-  .floating-wa span {
-    display: none;
-  }
-  .floating-wa {
-    padding: 15px;
-    border-radius: 50%;
-  }
-}
-
 /* laptop */
 @media (max-width: 1366px) {
   html {
@@ -451,9 +440,13 @@ footer .credit a {
   }
 }
 
-/* mobile Phone*/
+/* Biar rapi di HP */
 @media (max-width: 450px) {
-  html {
-    font-size: 55%;
+  .floating-wa span {
+    display: none;
+  }
+  .floating-wa {
+    padding: 15px;
+    border-radius: 50%;
   }
 }
